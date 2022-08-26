@@ -1,0 +1,62 @@
+.inputareacontainer {
+    position: absolute;
+    background: rgb(255, 219, 152);
+    margin: .3em;
+    width: 80%;
+    height: 160px;
+    opacity: 0.8;
+    border-radius: 1em;
+    z-index: 1;
+}
+
+span {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    right: 0.3em;
+    top: 0.2em;
+    font-size: 1.5em;
+    font-weight: bold;
+    transform: rotate(45deg);
+    cursor: pointer;
+    
+}
+
+form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+
+#todoitem {
+    width: 80%;
+    height: 2em;
+    margin-top: 2em;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -o-border-radius: 25px;
+    background: rgb(255, 219, 152);
+    box-shadow: 2px 2px 3px grey inset;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#todoitem:focus {
+    outline: none;
+    border: 1px solid rgb(38, 166, 240);
+}
+
+input[type="submit"] {
+    width: 6em;
+    height: 2.5em;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -o-border-radius: 25px;
+    background-color: orange;
+    color: rgb(0, 78, 122);
+    font-weight: bold;
+}
